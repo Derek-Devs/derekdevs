@@ -2,10 +2,18 @@
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:
+      {
+
+      }
+    },
   },
   daisyui: {
     themes: ["light", "night"]
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require('tailwindcss-hero-patterns'),
+    require("daisyui")
+  ],
 }

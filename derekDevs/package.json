@@ -37,6 +37,7 @@
 	"type": "module",
 	"dependencies": {
 		"daisyui": "^2.47.0",
+		"tailwindcss-hero-patterns": "^0.0.1",
 		"theme-change": "^2.3.0"
 	}
 }
