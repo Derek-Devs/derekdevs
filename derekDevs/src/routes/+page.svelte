@@ -1,4 +1,25 @@
-
+<div class="grid grid-cols-3 gap-4 grid-flow-row-dense">
+  <div class="card w-96 bg-base-100 shadow-xl image-full card-body col-span-1">
+    <figure><img src="https://github.com/Derek-Devs/derekdevs/blob/master/derekDevs/assets/PeanutWing_a_painters_dirty_color_pallete_sitting_on_a_stool_ne_1d61bd8c-b16d-4480-9a03-9b4c9ff5b72d.png" alt="A laptop sits next to a recently used paint brush kit" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">Shoes!</h2>
+      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="card w-96 bg-base-100 shadow-xl image-full card-body col-span-1">
+    <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">Shoes!</h2>
+      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="container mx-auto bg-repeat text-primary-100 heropattern-topography-inherit p-5 rounded-md">
       <div class="mockup-code w-1/2 mx-auto max-w-s">
         <pre data-prefix="$"><code>pnpm i addDerekToTeam</code></pre> 
