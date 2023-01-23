@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --my-color: white;
+  background-color: var(--my-color);
+}
+[data-theme='night'] {
+  --my-color: night;
+}
+[data-theme='light'] {
+  --my-color: white;
+}
