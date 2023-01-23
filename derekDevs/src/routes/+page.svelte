@@ -1,6 +1,6 @@
 <div class="grid grid-cols-3 gap-4 grid-flow-row-dense">
   <div class="card w-96 bg-base-100 shadow-xl image-full card-body col-span-1">
-    <figure><img src="https://github.com/Derek-Devs/derekdevs/blob/master/derekDevs/assets/PeanutWing_a_painters_dirty_color_pallete_sitting_on_a_stool_ne_1d61bd8c-b16d-4480-9a03-9b4c9ff5b72d.png" alt="A laptop sits next to a recently used paint brush kit" /></figure>
+    <figure><img src="C:\Users\derek\derekdevs\derekDevs\assets\images\opensource.png" alt="A laptop sits next to a recently used paint brush kit" /></figure>
     <div class="card-body">
       <h2 class="card-title">Shoes!</h2>
       <p>If a dog chews shoes whose shoes does he choose?</p>

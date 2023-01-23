@@ -15,7 +15,7 @@
       <label class="swap swap-flip text-3xl justify-end">
         <!-- this hidden checkbox controls the state -->
         <input type="checkbox" data-toggle-theme="night,light" data-act-class="ACTIVECLASS" />
-        <div class="swap-on">🌑</div>
+        <div class="swap-on">🌜</div>
         <div class="swap-off">🌞</div>
       </label>
     </div>
