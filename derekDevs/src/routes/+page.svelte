@@ -45,11 +45,10 @@
     <div class="stat-title">Tasks done</div>
     <div class="stat-desc text-secondary">31 tasks remaining</div>
   </div>
-
-<!-- Portfolio Section-->
 </div>
+<!-- Portfolio Section-->
 <div class="grid grid-cols-3 gap-4 p-2">
-  <div class="card w-96 bg-base-100 shadow-xl image-full card-body col-span-1">
+  <div class="card w-full  bg-base-100 shadow-xl image-full card-body">
     <figure><img src="{openSourceLibraryPic}" alt="A laptop sits next to a recently used paint brush kit" /></figure>
     <div class="card-body">
       <h2 class="card-title justify-center">Tailwind CSS Library</h2>
@@ -59,7 +58,7 @@
       </div>
     </div>
   </div>
-  <div class="card w-96 bg-base-100 shadow-xl image-full card-body col-span-1">
+  <div class="card w-full bg-base-100 shadow-xl image-full card-body">
     <figure><img src="{unarchivedClothingPic}" alt="Three wizards are making clothing" /></figure>
     <div class="card-body">
       <h2 class="card-title justify-center">Clothing Webstore</h2>
