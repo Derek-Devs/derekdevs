@@ -1,17 +1,82 @@
 <script>
+// @ts-nocheck
+
   const openSourceLibraryPic = new URL('/static/images/opensource.png', import.meta.url).href
   const unarchivedClothingPic = new URL('/static/images/wizards.png', import.meta.url).href
   const profilePic = new URL('/static/images/pfp.png', import.meta.url).href
-
-  let scroll = 0;
+  const portfolioPic = new URL('/static/images/portfolio.png', import.meta.url).href
 </script>
 
-<svelte:window bind:scrollY={scroll} />
+<div class="divider">About You</div>
+<div class="p-5 rounded">
+  <div class="hero min-h-screen p-5 rounded-md" style="background-image: url(https://placeimg.com/1000/800/arch);">
+    <div class="hero-overlay bg-opacity-60 rounded"></div>
+    <div class="hero-content text-center text-neutral-content rounded">
+      <div class="max-w-md rounded">
+        <h1 class="mb-5 text-5xl font-bold">Here's to our new partnership</h1>
+        <p class="mb-5">Click the button below and let's figure out how I can help you.</p>
+        <button class="btn btn-primary">Get Started</button>
+      </div>
+    </div>
+  </div>
+</div>
 
-<h1>{scroll}</h1>
+<div class="divider">Portfolio</div>
+
+<div class="grid sm:grid-col-1 md:grid-col-2 lg:grid-cols-3 sm:grid-row-1 md:grid-row-2 lg:grid-row-3 p-2 gap-4">
+<!-- Portfolio Section-->
+  <div class="card w-full bg-base-100 shadow-xl image-full card-body">
+    <figure><img src="{portfolioPic}" alt="A man with curly hair codes at a computer with his team" /></figure>
+    <div class="card-body">
+      <h2 class="card-title justify-center">Open Development Portfolio Website</h2>
+      <p>Developed an entirely open source portfolio website using Javascript, Typescript, CSS, HTML, Sveltekit, Vite, NodeJS and other technologies.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary" onclick="location.href='https://github.com/Derek-Devs/derekdevs';">View the repository</button>
+      </div>
+    </div>
+  </div>
+  <div class="card w-full bg-base-100 shadow-xl image-full card-body">
+    <figure><img src="{openSourceLibraryPic}" alt="A laptop sits next to a recently used paint brush kit" /></figure>
+    <div class="card-body">
+      <h2 class="card-title justify-center">Tailwind CSS Library</h2>
+      <p>Contributed to an Open Source Tailwind CSS Library for using the Hero Patterns you see on this website</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary" onclick="location.href='https://github.com/svengau/tailwindcss-hero-patterns';">View the Repository</button>
+      </div>
+    </div>
+  </div>
+  <div class="card w-full bg-base-100 shadow-xl image-full card-body">
+    <figure><img src="{unarchivedClothingPic}" alt="Three wizards are making clothing" /></figure>
+    <div class="card-body">
+      <h2 class="card-title justify-center">Clothing Webstore</h2>
+      <p>Created a webstore for a local clothing brand built using a popular CMS and minimalist design features. Also utilized digital design software such as Photoshop.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary" onclick="location.href='https://www.unarchived.us/';">Check it out</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">About Me</div>
+
+<div class="p-5 rounded">
+  <div class="hero min-h-screen p-5 rounded-md" style="background-image: url(https://placeimg.com/1000/800/arch);">
+    <div class="hero-overlay bg-opacity-60 rounded"></div>
+    <div class="hero-content text-center text-neutral-content rounded">
+      <div class="max-w-md rounded">
+        <h1 class="mb-5 text-5xl font-bold">Here's to our new partnership</h1>
+        <p class="mb-5">Click the button below and let's figure out how I can help you.</p>
+        <button class="btn btn-primary">Get Started</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="divider">Statistics</div>
+
 <!-- Stats Section-->
-<div class="stats stats-vertical lg:stats-horizontal shadow p-2">
-  
+<div class="p-2">
+<div class="stats shadow stats-vertical lg:stats-horizontal p-2 grid">
   <div class="stat">
     <div class="stat-figure text-primary">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -46,35 +111,18 @@
     <div class="stat-desc text-secondary">31 tasks remaining</div>
   </div>
 </div>
-<!-- Portfolio Section-->
-<div class="grid grid-cols-3 gap-4 p-2">
-  <div class="card w-full  bg-base-100 shadow-xl image-full card-body">
-    <figure><img src="{openSourceLibraryPic}" alt="A laptop sits next to a recently used paint brush kit" /></figure>
-    <div class="card-body">
-      <h2 class="card-title justify-center">Tailwind CSS Library</h2>
-      <p>Contributed to an Open Source Tailwind CSS Library for using the Hero Patterns you see on this website</p>
-      <div class="card-actions justify-end">
-        <button class="btn btn-primary" onclick="location.href='https://github.com/svengau/tailwindcss-hero-patterns';">View the Repository</button>
-      </div>
-    </div>
-  </div>
-  <div class="card w-full bg-base-100 shadow-xl image-full card-body">
-    <figure><img src="{unarchivedClothingPic}" alt="Three wizards are making clothing" /></figure>
-    <div class="card-body">
-      <h2 class="card-title justify-center">Clothing Webstore</h2>
-      <p>A simple webstore for a local clothing brand built using a popular CMS and minimalist design features.</p>
-      <div class="card-actions justify-end">
-        <button class="btn btn-primary" onclick="location.href='https://unarchived.us';">Check it out</button>
-      </div>
-    </div>
-  </div>
 </div>
 
-<!-- Code snippit section -->
-<div class="container mx-auto bg-repeat heropattern-topography-inherit p-5 rounded-md">
-      <div class="mockup-code w-1/2 mx-auto max-w-s">
-        <pre data-prefix="$"><code>pnpm i <a class="link" href="/contactForm">addDerekToTeam</a></code></pre> 
-        <pre data-prefix=">" class="text-warning"><code>installing...</code></pre> 
-        <pre data-prefix=">" class="text-success"><code>Done!</code></pre>
-  </div>
+<div class="divider">What, no jokes?</div>
+
+  <!-- Code snippit section -->
+<div class="p-2 rounded">
+  <div class="container mx-auto bg-repeat heropattern-topography-inherit p-5 rounded-md max-w-full">
+    <div class="mockup-code w-1/2 mx-auto max-w-s">
+      <pre data-prefix="$"><code>pnpm i <a class="link" href="/contactForm">contactMyDeveloper</a></code></pre> 
+      <pre data-prefix=">" class="text-warning"><code>installing...</code></pre> 
+      <pre data-prefix=">" class="text-success"><code>Done!</code></pre>
+    </div>
 </div>
+</div>
+
