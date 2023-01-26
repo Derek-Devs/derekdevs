@@ -1,27 +1,77 @@
-<script>
+<script lang="ts">
 // @ts-nocheck
+  const openSourceLibraryPic = new URL('images/opensource.png', import.meta.url).href
+  const unarchivedClothingPic = new URL('images/wizards.png', import.meta.url).href
+  const profilePic = new URL('images/pfp.png', import.meta.url).href
+  const portfolioPic = new URL('images/portfolio.png', import.meta.url).href
+  const artistPic = new URL('images/artist.png', import.meta.url).href
 
-  const openSourceLibraryPic = new URL('/static/images/opensource.png', import.meta.url).href
-  const unarchivedClothingPic = new URL('/static/images/wizards.png', import.meta.url).href
-  const profilePic = new URL('/static/images/pfp.png', import.meta.url).href
-  const portfolioPic = new URL('/static/images/portfolio.png', import.meta.url).href
+
+// import { request, gql } from 'graphql-request'
+
+// const query = gql`
+// {
+//   username {
+//     userProblemsSolved
+//     allQuestionsCount
+//     problemsSolvedBeatsStats
+//     difficulty
+//     percentage
+//     itStatsGlobal
+//     acSubmissionsNum
+//   }
+//   variables: {
+//     username: DerekDevs
+//   }
+// }
+// `
+// request('https://leetcode.com/graphql', query).then((data) => console.log(data))
+
+
 </script>
 
-<div class="divider">About You</div>
-<div class="p-5 rounded">
-  <div class="hero min-h-screen p-5 rounded-md" style="background-image: url(https://placeimg.com/1000/800/arch);">
-    <div class="hero-overlay bg-opacity-60 rounded"></div>
-    <div class="hero-content text-center text-neutral-content rounded">
-      <div class="max-w-md rounded">
-        <h1 class="mb-5 text-5xl font-bold">Here's to our new partnership</h1>
-        <p class="mb-5">Click the button below and let's figure out how I can help you.</p>
-        <button class="btn btn-primary">Get Started</button>
-      </div>
+<div class="divider p-5">Welcome</div>
+<div class="p-5 rounded-lg">
+<div class="hero min-h-screen bg-base-200">
+  <div class="hero-content flex-col lg:flex-row">
+    <img src="{artistPic}" alt="" class="max-w-sm rounded-lg shadow-2xl" />
+    <div>
+      <h1 class="text-5xl font-bold">Welcome to DerekDevs.com</h1>
+      <p class="py-6">My name is Derek. Scroll down to view my projects, or click the button below to get my contact info.</p>
+      <button class="btn btn-primary" onclick="location.href='/contactForm';">Get Started</button>
     </div>
   </div>
 </div>
-
-<div class="divider">Portfolio</div>
+</div>
+<!-- <div class="grid-cols-2 grid-row-1 grid-flow-row-dense">
+  <div class="p-5 rounded">
+    <div class="hero min-h-screen p-5 rounded-md">
+      <figure><img src="{artistPic}" alt="A man with curly hair creates artwork in a bedroom at night." /></figure>
+      <div class="hero-overlay bg-opacity-60 rounded"></div>
+      <div class="hero-content text-center text-neutral-content rounded">
+        <div class="max-w-md rounded">
+          <h1 class="mb-5 text-5xl font-bold">Welcome to my Portfolio Website</h1>
+          <p class="mb-5">My name is Derek. Scroll down to view my projects, or click the button below to read more about me and get my contact info.</p>
+          <button class="btn btn-primary">Contact.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="p-5 rounded">
+    <div class="hero min-h-screen p-5 rounded-md">
+      <figure><img src="{artistPic}" alt="A man with curly hair creates artwork in a bedroom at night." /></figure>
+      <div class="hero-overlay bg-opacity-60 rounded"></div>
+      <div class="hero-content text-center text-neutral-content rounded">
+        <div class="max-w-md rounded">
+          <h1 class="mb-5 text-5xl font-bold">Welcome to my Portfolio Website</h1>
+          <p class="mb-5">My name is Derek. Scroll down to view my projects, or click the button below to read more about me and get my contact info.</p>
+          <button class="btn btn-primary">Contact.</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="divider p-5">Portfolio</div>
 
 <div class="grid sm:grid-col-1 md:grid-col-2 lg:grid-cols-3 sm:grid-row-1 md:grid-row-2 lg:grid-row-3 p-2 gap-4">
 <!-- Portfolio Section-->
@@ -57,26 +107,11 @@
   </div>
 </div>
 
-<div class="divider">About Me</div>
-
-<div class="p-5 rounded">
-  <div class="hero min-h-screen p-5 rounded-md" style="background-image: url(https://placeimg.com/1000/800/arch);">
-    <div class="hero-overlay bg-opacity-60 rounded"></div>
-    <div class="hero-content text-center text-neutral-content rounded">
-      <div class="max-w-md rounded">
-        <h1 class="mb-5 text-5xl font-bold">Here's to our new partnership</h1>
-        <p class="mb-5">Click the button below and let's figure out how I can help you.</p>
-        <button class="btn btn-primary">Get Started</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="divider">Statistics</div>
+<!-- <div class="divider">Statistics</div> -->
 
 <!-- Stats Section-->
-<div class="p-2">
-<div class="stats shadow stats-vertical lg:stats-horizontal p-2 grid">
+<!-- <div class="p-2">
+<div class="stats shadow-xl stats-vertical lg:stats-horizontal p-2 grid">
   <div class="stat">
     <div class="stat-figure text-primary">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -111,17 +146,17 @@
     <div class="stat-desc text-secondary">31 tasks remaining</div>
   </div>
 </div>
-</div>
+</div> -->
 
-<div class="divider">What, no jokes?</div>
+<div class="divider p-5">Want to get in touch?</div>
 
   <!-- Code snippit section -->
 <div class="p-2 rounded">
   <div class="container mx-auto bg-repeat heropattern-topography-inherit p-5 rounded-md max-w-full">
     <div class="mockup-code w-1/2 mx-auto max-w-s">
-      <pre data-prefix="$"><code>pnpm i <a class="link" href="/contactForm">contactMyDeveloper</a></code></pre> 
-      <pre data-prefix=">" class="text-warning"><code>installing...</code></pre> 
-      <pre data-prefix=">" class="text-success"><code>Done!</code></pre>
+      <pre data-prefix="$"><code>pnpm i <a class="link link-secondary" href="/contactForm">contactMyDeveloper</a></code></pre> 
+      <!-- <pre data-prefix=">" class="text-warning"><code>installing...</code></pre> 
+      <pre data-prefix=">" class="text-success"><code>Done!</code></pre> -->
     </div>
 </div>
 </div>
