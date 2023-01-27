@@ -1,9 +1,9 @@
 <script lang="ts">
 // @ts-nocheck
-  const openSourceLibraryPic = new URL('images/opensource.png', import.meta.url).href
-  const unarchivedClothingPic = new URL('images/wizards.png', import.meta.url).href
+  const openSourceLibraryPic = new URL('images/heropatterns.png', import.meta.url).href
+  const unarchivedClothingPic = new URL('images/website.png', import.meta.url).href
   const profilePic = new URL('images/pfp.png', import.meta.url).href
-  const portfolioPic = new URL('images/portfolio.png', import.meta.url).href
+  const portfolioPic = new URL('images/screenshotcontact.png', import.meta.url).href
   const artistPic = new URL('images/artist.png', import.meta.url).href
 
 // import { request, gql } from 'graphql-request'
@@ -93,7 +93,7 @@
       <h2 class="card-title justify-center">Tailwind CSS Library</h2>
       <p>Contributed to an Open Source Tailwind CSS Library for using the Hero Patterns you see on this website</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-primary" onclick="location.href='https://github.com/svengau/tailwindcss-hero-patterns';">View the Repository</button>
+        <button class="btn btn-primary" onclick="location.href='https://github.com/svengau/tailwindcss-hero-patterns/pull/5';">View Pull Request</button>
       </div>
     </div>
   </div>

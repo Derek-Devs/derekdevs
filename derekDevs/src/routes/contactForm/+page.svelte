@@ -20,8 +20,12 @@
     <div class="card-body">
       <h2 class="card-title">Let's get in touch</h2>
 <ul class="list-disc">
-  <!-- <li>Email: derek@derekdevs.com</li>
-  <li>Phone: 940-594-6143</li> -->
+  <li>Phone: (469) 850-2645</li>
+  <li><a href="mailto:derek@derekdevs.com"class="link link-accent">derek@derekdevs.com</a></li>
+  <li><a href="https://www.linkedin.com/in/derekdevs/"class="link link-accent">Linkedin</a></li>
+  <li><a href="https://github.com/Derek-Devs"class="link link-accent">Github</a></li>
+  <li><a href="https://twitter.com/Derek_Devs"class="link link-accent">Twitter</a></li>
+
 </ul>
 </div>
 </div>
@@ -31,7 +35,7 @@
     </figure>
     <div class="card-body">
       <h2 class="card-title">About Me</h2>
-      <p>I am a Full-Stack Web Developer looking to improve my community and workplace every day. I enjoy taking on new challenges and staying on the bleeding edge of technology. I work with the following languages:</p>
+      <p>I am a Full-Stack Web Developer & Analyst looking to improve my community and workplace every day. I enjoy taking on new challenges and staying on the bleeding edge of technology. I work with the following languages:</p>
       <ul class="list-disc">
         <li>
         Javascript
@@ -56,6 +60,9 @@
         </li>
         <li>
         React
+        </li>
+        <li>
+        SQL
         </li>
       </ul>
     </div>
