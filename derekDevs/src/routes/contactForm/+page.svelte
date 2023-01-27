@@ -1,15 +1,15 @@
 <script>
 // @ts-nocheck
-
     const openSourceLibraryPic = new URL('/static/images/opensource.png', import.meta.url).href
     const meetingPic = new URL('../images/meeting.png', import.meta.url).href
     const aboutMePic = new URL('../images/computerPic.png', import.meta.url).href
     const thisSitePic = new URL('../images/thissite.png', import.meta.url).href
     const farewellPic = new URL('../images/goodbye.png', import.meta.url).href
-
-
-
 </script>
+
+<svelte:head>
+    <title>Contact & About Me</title> 
+</svelte:head>
 
 <div class="grid sm:grid-col-1 md:grid-col-2 lg:grid-cols-3 sm:grid-row-1 md:grid-row-2 lg:grid-row-3 p-2 gap-4">
   

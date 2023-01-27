@@ -1,4 +1,5 @@
 <script>
+      const favicon = new URL('static/favicon.png', import.meta.url).href
     import "../app.css";
     import { onMount } from 'svelte';
     import {themeChange} from "theme-change"
@@ -7,6 +8,9 @@
 })
 // must use onMount because we don't want it on SSR.
 </script>
+<svelte:head>
+  <link rel="icon" href="{favicon}" />
+</svelte:head>
     <div class="sticky top-0 z-50 navbar bg-base-inherit bg-opacity-0 heropattern-topography-inherit rounded-sm backdrop-blur">
       <div class="flex-1 space-x-5">
       <a class="btn btn-primary normal-case text-xl" href="/">Home</a>

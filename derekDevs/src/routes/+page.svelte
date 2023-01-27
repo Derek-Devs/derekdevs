@@ -6,7 +6,6 @@
   const portfolioPic = new URL('images/portfolio.png', import.meta.url).href
   const artistPic = new URL('images/artist.png', import.meta.url).href
 
-
 // import { request, gql } from 'graphql-request'
 
 // const query = gql`
@@ -27,22 +26,22 @@
 // `
 // request('https://leetcode.com/graphql', query).then((data) => console.log(data))
 
-
 </script>
+<svelte:head>
+    <title>Home</title> 
+</svelte:head>
 
 <div class="divider p-5">Welcome</div>
-<div class="p-5 rounded-lg">
-<div class="hero min-h-screen bg-base-200">
-  <div class="hero-content flex-col lg:flex-row">
-    <img src="{artistPic}" alt="" class="max-w-sm rounded-lg shadow-2xl" />
-    <div>
-      <h1 class="text-5xl font-bold">Welcome to DerekDevs.com</h1>
-      <p class="py-6">My name is Derek. Scroll down to view my projects, or click the button below to get my contact info.</p>
-      <button class="btn btn-primary" onclick="location.href='/contactForm';">Get Started</button>
+  <div class="p-5 rounded-lg">
+    <div class="hero-content flex-col lg:flex-row">
+      <img src="{artistPic}" alt="" class="max-w-sm rounded-lg shadow-2xl" />
+      <div>
+        <h1 class="text-5xl font-bold">Welcome to DerekDevs.com</h1>
+        <p class="py-6">My name is Derek. Scroll down to view my projects, or click the button below to get my contact info.</p>
+        <button class="btn btn-primary" onclick="location.href='/contactForm';">Get Started</button>
+      </div>
     </div>
   </div>
-</div>
-</div>
 <!-- <div class="grid-cols-2 grid-row-1 grid-flow-row-dense">
   <div class="p-5 rounded">
     <div class="hero min-h-screen p-5 rounded-md">
