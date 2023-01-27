@@ -20,8 +20,8 @@
     <div class="card-body">
       <h2 class="card-title">Let's get in touch</h2>
 <ul class="list-disc">
-  <li>Email: derek@derekdevs.com</li>
-  <li>Phone: 940-594-6143</li>
+  <!-- <li>Email: derek@derekdevs.com</li>
+  <li>Phone: 940-594-6143</li> -->
 </ul>
 </div>
 </div>
