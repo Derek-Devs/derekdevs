@@ -5,7 +5,15 @@
     "isEntry": true,
     "imports": [
       "_index.js",
-      "_server-internal.js"
+      ".svelte-kit/generated/server-internal.js"
+    ]
+  },
+  ".svelte-kit/generated/server-internal.js": {
+    "file": "internal.js",
+    "src": ".svelte-kit/generated/server-internal.js",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
     ]
   },
   "src/routes/+layout.svelte": {
@@ -43,21 +51,7 @@
       "_index.js"
     ]
   },
-  ".svelte-kit/generated/server-internal.js": {
-    "file": "internal.js",
-    "src": ".svelte-kit/generated/server-internal.js",
-    "isEntry": true,
-    "imports": [
-      "_server-internal.js"
-    ]
-  },
   "_index.js": {
     "file": "chunks/index.js"
-  },
-  "_server-internal.js": {
-    "file": "chunks/server-internal.js",
-    "imports": [
-      "_index.js"
-    ]
   }
 }

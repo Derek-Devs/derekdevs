@@ -1,5 +1,5 @@
 import { n as noop, s as safe_not_equal } from "./chunks/index.js";
-import { a as assets, b as base, v as version, o as options, g as get_hooks } from "./chunks/server-internal.js";
+import { options, get_hooks } from "./internal.js";
 const DEV = false;
 function negotiate(accept, types) {
   const parts = [];
@@ -598,6 +598,9 @@ function add_data_suffix(pathname) {
 function strip_data_suffix(pathname) {
   return pathname.slice(0, -DATA_SUFFIX.length);
 }
+let assets = "";
+let base = "";
+let version = "";
 const GENERIC_ERROR = {
   id: "__error"
 };
@@ -1688,9 +1691,7 @@ async function render_response({
   });
   const target = hash(body);
   let resolved_assets;
-  if (assets) {
-    resolved_assets = assets;
-  } else if (state.prerendering?.fallback) {
+  if (state.prerendering?.fallback) {
     resolved_assets = base;
   } else {
     const segments = event.url.pathname.slice(base.length).split("/").slice(2);
@@ -2836,7 +2837,7 @@ function create_fetch({ event, options: options2, manifest, state, get_cookie_he
           return fetch(request);
         }
         let response;
-        const prefix = assets || base;
+        const prefix = base;
         const decoded = decodeURIComponent(url.pathname);
         const filename = (decoded.startsWith(prefix) ? decoded.slice(prefix.length) : decoded).slice(1);
         const filename_html = `${filename}/index.html`;
@@ -2962,12 +2963,6 @@ async function respond(request, options2, manifest, state) {
   }
   let route = null;
   let params = {};
-  if (base && !state.prerendering?.fallback) {
-    if (!decoded.startsWith(base)) {
-      return text("Not found", { status: 404 });
-    }
-    decoded = decoded.slice(base.length) || "/";
-  }
   const is_data_request = has_data_suffix(decoded);
   let invalidated_data_nodes;
   if (is_data_request) {
