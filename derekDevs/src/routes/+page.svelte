@@ -1,9 +1,9 @@
 <script lang="ts">
 // @ts-nocheck
-  const openSourceLibraryPic = new URL('images/heropatterns.png', import.meta.url).href
-  const unarchivedClothingPic = new URL('images/website.png', import.meta.url).href
+  const openSourceLibraryPic = new URL('images/heropatterns.PNG', import.meta.url).href
+  const unarchivedClothingPic = new URL('images/website.PNG', import.meta.url).href
   const profilePic = new URL('images/pfp.png', import.meta.url).href
-  const portfolioPic = new URL('images/screenshotcontact.png', import.meta.url).href
+  const portfolioPic = new URL('images/screenshotcontact.PNG', import.meta.url).href
   const artistPic = new URL('images/artist.png', import.meta.url).href
 
 // import { request, gql } from 'graphql-request'
