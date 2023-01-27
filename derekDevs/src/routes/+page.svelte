@@ -156,7 +156,7 @@
 <div class="p-2 rounded">
   <div class="container mx-auto bg-repeat heropattern-topography-inherit p-5 rounded-md max-w-full">
     <div class="mockup-code w-1/2 mx-auto max-w-s">
-      <pre data-prefix="$"><code>pnpm i <a class="link link-secondary" href="/contactForm">contactMyDeveloper</a></code></pre> 
+      <pre data-prefix="$"><code>pnpm i <a class="link link-secondary" href="/contactForm">contactDeveloper</a></code></pre> 
       <!-- <pre data-prefix=">" class="text-warning"><code>installing...</code></pre> 
       <pre data-prefix=">" class="text-success"><code>Done!</code></pre> -->
     </div>
