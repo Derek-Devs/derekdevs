@@ -35,7 +35,7 @@
 
 <div class="p-5 rounded-lg">
   <div class="hero-content flex-col lg:flex-row">
-    <img src="{artistPic}" alt="" class="max-w-sm rounded-lg shadow-2xl" />
+    <img src="{artistPic}" alt="A man sitting at a desk painting near a window" class="max-w-sm rounded-lg shadow-2xl" />
       <div>
         <h1 class="text-5xl font-bold">Welcome to DerekDevs.com</h1>
         <p class="py-6">My name is Derek. Scroll down to view my projects, or click the button below to get my contact info.</p>
@@ -78,7 +78,7 @@
 <div class="grid sm:grid-col-1 md:grid-col-2 lg:grid-cols-3 sm:grid-row-1 md:grid-row-2 lg:grid-row-3 p-2 gap-4">
 <!-- Portfolio Section-->
   <div class="card w-full bg-base-100 shadow-xl image-full card-body">
-    <figure><img src="{portfolioPic}" alt="A man with curly hair codes at a computer with his team" /></figure>
+    <figure><img src="{portfolioPic}" alt="A screenshot of a portfolio website." /></figure>
     <div class="card-body">
       <h2 class="card-title justify-center">Open Development Portfolio Website</h2>
       <p>Developed an entirely open source portfolio website using Javascript, Typescript, CSS, HTML, Sveltekit, Vite, NodeJS and other technologies.</p>
@@ -88,7 +88,7 @@
     </div>
   </div>
   <div class="card w-full bg-base-100 shadow-xl image-full card-body">
-    <figure><img src="{openSourceLibraryPic}" alt="A laptop sits next to a recently used paint brush kit" /></figure>
+    <figure><img src="{openSourceLibraryPic}" alt="A screenshot of a CSS pattern framework plugin." /></figure>
     <div class="card-body">
       <h2 class="card-title justify-center">Tailwind CSS Library</h2>
       <p>Contributed to an Open Source Tailwind CSS Library for using the Hero Patterns you see on this website</p>
@@ -98,7 +98,7 @@
     </div>
   </div>
   <div class="card w-full bg-base-100 shadow-xl image-full card-body">
-    <figure><img src="{unarchivedClothingPic}" alt="Three wizards are making clothing" /></figure>
+    <figure><img src="{unarchivedClothingPic}" alt="A screenshot of a clothing webstore." /></figure>
     <div class="card-body">
       <h2 class="card-title justify-center">Clothing Webstore</h2>
       <p>Created a webstore for a local clothing brand built using a popular CMS and minimalist design features. Also utilized digital design software such as Photoshop.</p>
