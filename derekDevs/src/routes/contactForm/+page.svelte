@@ -15,7 +15,7 @@
   
 <div class="card lg:card-side bg-base-100 shadow-xl card-body image-full">
     <figure>
-      <img src="{meetingPic}" alt="Album"/>
+      <img src="{meetingPic}" alt="A business meeting taking place around a telephone."/>
     </figure>
     <div class="card-body">
       <h2 class="card-title">Let's get in touch</h2>
@@ -31,7 +31,7 @@
 </div>
   <div class="card lg:card-side bg-base-100 shadow-xl card-body image-full">
     <figure>
-      <img src="{aboutMePic}" alt="Album"/>
+      <img src="{aboutMePic}" alt="A laptop, several books, and paintbrushes sitting by the window"/>
     </figure>
     <div class="card-body">
       <h2 class="card-title">About Me</h2>
@@ -69,7 +69,7 @@
   </div>
     <div class="card lg:card-side bg-base-100 shadow-xl card-body image-full">
       <figure>
-        <img src="{thisSitePic}" alt="Album"/>
+        <img src="{thisSitePic}" alt="An old rusted mech walking through the forest"/>
       </figure>
     <div class="card-body">
       <h2 class="card-title">About This Site</h2>
