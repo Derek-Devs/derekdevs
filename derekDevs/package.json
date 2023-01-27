@@ -41,7 +41,7 @@
 	"type": "module",
 	"dependencies": {
 		"daisyui": "^2.47.0",
-		"tailwindcss-hero-patterns": "../vendor/tailwindcss-hero-patterns-0.0.1.tgz",
+		"tailwindcss-hero-patterns": "../derekDevs/vendor/tailwindcss-hero-patterns-0.0.1.tgz",
 		"theme-change": "^2.3.0",
 		"yup": "^0.32.11"
 		
