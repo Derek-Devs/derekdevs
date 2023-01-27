@@ -38,8 +38,6 @@
 	"type": "module",
 	"dependencies": {
 		"daisyui": "^2.47.0",
-		"graphql": "^16.6.0",
-		"graphql-request": "^5.1.0",
 		"tailwindcss-hero-patterns": "^0.0.1",
 		"theme-change": "^2.3.0",
 		"yup": "^0.32.11"
