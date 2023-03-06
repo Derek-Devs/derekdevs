@@ -1,10 +1,9 @@
 <script>
 // @ts-nocheck
-    const openSourceLibraryPic = new URL('/static/images/opensource.png', import.meta.url).href
-    const meetingPic = new URL('../images/meeting.png', import.meta.url).href
-    const aboutMePic = new URL('../images/computerPic.png', import.meta.url).href
-    const thisSitePic = new URL('../images/thissite.png', import.meta.url).href
-    const farewellPic = new URL('../images/goodbye.png', import.meta.url).href
+    const meetingPic = new URL('/static/images/meeting.png', import.meta.url).href
+    const aboutMePic = new URL('/static/images/computerPic.png', import.meta.url).href
+    const thisSitePic = new URL('/static/images/thissite.png', import.meta.url).href
+    const farewellPic = new URL('/static/images/goodbye.png', import.meta.url).href
 </script>
 
 <svelte:head>
@@ -73,7 +72,7 @@
       </figure>
     <div class="card-body">
       <h2 class="card-title">About This Site</h2>
-      <p>This site was built using a lean tech stack, and uses 100% AI generated artwork, working with the stable diffusion model Midjourney. Daisy UI is the Tailwind CSS UI Library used, and Sveltekit also makes an appearance.</p>
+      <p>This site was built Sveltekit, Typescript, and Tailwind CSS. I used 100% AI generated artwork, working with the stable diffusion model Midjourney. Daisy UI is the Tailwind CSS UI Library used and Power BI is used for data visualization.</p>
     </div>
   </div>
 </div>

@@ -1,5 +1,5 @@
 <script>
-      const favicon = new URL('static/favicon.png', import.meta.url).href
+      const favicon = new URL('/static/favicon.png', import.meta.url).href
     import "../app.css";
     import { onMount } from 'svelte';
     import {themeChange} from "theme-change"
@@ -13,6 +13,25 @@
 </svelte:head>
     <div class="sticky top-0 z-50 navbar bg-base-inherit bg-opacity-0 heropattern-topography-inherit rounded-sm backdrop-blur">
       <div class="flex-1 space-x-5">
+        <div class="dropdown">
+          <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+          <!-- svelte-ignore a11y-label-has-associated-control -->
+          <label tabindex="0" class="btn btn-primary btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+          </label>
+          <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+          <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+            <li>
+              <a href="/webDevelopment">Web Development Portfolio</a>
+            </li>
+            <li>
+              <a href="/dataAnalytics">Data Analysis Portfolio</a>
+            </li>
+            <li>
+              <a href="/extras">Extras</a>
+            </li>
+          </ul>
+        </div>
       <a class="btn btn-primary normal-case text-xl" href="/">Home</a>
       <a class="btn btn-primary normal-case text-xl" href="/contactForm">Contact</a>
     </div>
