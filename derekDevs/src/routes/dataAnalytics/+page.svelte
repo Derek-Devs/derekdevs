@@ -2,6 +2,8 @@
   const collage = new URL('/static/images/collage.png', import.meta.url).href
   const originStateData = new URL('/static/images/originstatedata.PNG', import.meta.url).href
   const codesample = new URL('/static/images/codesample.png', import.meta.url).href
+  const andMore = new URL('/static/images/andmore.PNG', import.meta.url).href
+
 
 
 </script>
@@ -44,7 +46,7 @@
 
   <div class="card lg:card-side bg-base-100 shadow-xl card-body image-full">
         <figure>
-          <img src="{codesample}" alt="An old rusted mech walking through the forest"/>
+          <img src="{codesample}" alt="A sample of code"/>
         </figure>
       <div class="card-body">
         <h2 class="card-title">Calculating Miles & Travel Time</h2>
@@ -57,7 +59,7 @@
 
   <div class="card lg:card-side bg-base-100 shadow-xl card-body image-full">
     <figure>
-      <img src="{originStateData}" alt="An old rusted mech walking through the forest"/>
+      <img src="{originStateData}" alt="A graph showing logistics data"/>
     </figure>
   <div class="card-body">
     <h2 class="card-title">Power BI Data Visualization</h2>
@@ -66,6 +68,19 @@
     <button class="btn btn-primary" onclick="location.href='https://i.imgur.com/sfTsUdh.png';">View the snippet</button>
     </div>
   </div>
+</div>
+
+<div class="card lg:card-side bg-base-100 shadow-xl card-body image-full">
+  <figure>
+    <img src="{andMore}" alt="A graph showing logistics data"/>
+  </figure>
+<div class="card-body">
+  <h2 class="card-title">More coming soon!</h2>
+  <p>Check back for more data analysis projects.</p>
+  <div class="card-actions justify-end">
+  <button class="btn btn-primary" onclick="location.href='/';">Home</button>
+  </div>
+</div>
 </div>
 
 </div>
