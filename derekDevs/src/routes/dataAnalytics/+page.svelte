@@ -1,5 +1,8 @@
 <script lang="ts">
   const collage = new URL('/static/images/collage.png', import.meta.url).href
+  const originStateData = new URL('/static/images/originstatedata.PNG', import.meta.url).href
+  const codesample = new URL('/static/images/codesample.png', import.meta.url).href
+
 
 </script>
 
@@ -30,9 +33,41 @@
 
             </ul>
         </div>
-        <button class="btn btn-primary" onclick="location.href='/contactForm';">Contact Information</button>
+        <button class="btn btn-primary" onclick="location.href='/contactForm';">Contact Me</button>
       </div>
   </div>
+</div>
+
+<div class="divider p-2">Data Analytics Projects</div>
+
+<div class="grid sm:grid-col-1 md:grid-col-2 lg:grid-cols-3 sm:grid-row-1 md:grid-row-2 lg:grid-row-3 p-2 gap-4">
+
+  <div class="card lg:card-side bg-base-100 shadow-xl card-body image-full">
+        <figure>
+          <img src="{codesample}" alt="An old rusted mech walking through the forest"/>
+        </figure>
+      <div class="card-body">
+        <h2 class="card-title">Calculating Miles & Travel Time</h2>
+        <p>When working with logistics data, it would often become neccessary to quickly and effectively calculate the mileage or time to travel between two points. This automates those two functions, performing them by using Javascript within Google Sheet's Script Feature</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary" onclick="location.href='https://github.com/Derek-Devs/google-maps-sheets';">View the repository</button>
+        </div>
+      </div>
+  </div>
+
+  <div class="card lg:card-side bg-base-100 shadow-xl card-body image-full">
+    <figure>
+      <img src="{originStateData}" alt="An old rusted mech walking through the forest"/>
+    </figure>
+  <div class="card-body">
+    <h2 class="card-title">Power BI Data Visualization</h2>
+    <p>A snapshot of a PDF export of a data visualization for a logistics client. This data has been altered to protect the client's privacy.</p>
+    <div class="card-actions justify-end">
+    <button class="btn btn-primary" onclick="location.href='https://i.imgur.com/sfTsUdh.png';">View the snippet</button>
+    </div>
+  </div>
+</div>
+
 </div>
 
 <div class="divider p-2">Logistics Quoting Statistics</div>
@@ -52,11 +87,10 @@
         </div>
                 
          <div class="stat">
-        <div class="stat-title">On-Time Delivery Percentage</div>
-        <div class="stat-value">95%+</div>
+        <div class="stat-title">Project Success Rate</div>
+        <div class="stat-value">98%+</div>
         <div class="stat-desc">Up 3% from 2020</div>
         </div>
-    </div>   
+    </div>
 </div>
 
-<div class="divider p-2">More projects coming soon!</div>
