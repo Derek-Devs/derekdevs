@@ -76,7 +76,7 @@
   </figure>
 <div class="card-body">
   <h2 class="card-title">SQL Query Example</h2>
-  <p>Without revealing customer data, this example shows the kind of SQL Queries I  use on a daily basis. More advanced queries can be completed with a little elbow grease.</p>
+  <p>Without revealing customer data, this example shows the kind of SQL Queries I  use on a daily basis. This example shows the top three performing carriers based on their on time percentage, their number of trucks, and their service rating. More advanced queries can be completed with a little elbow grease.</p>
   <div class="card-actions justify-end">
   <button class="btn btn-primary" onclick="location.href='https://derekdevs.com/images/sqlexample.png';">View Example</button>
   </div>
