@@ -2,7 +2,7 @@
   const collage = new URL('/static/images/collage.png', import.meta.url).href
   const originStateData = new URL('/static/images/originstatedata.PNG', import.meta.url).href
   const codesample = new URL('/static/images/codesample.png', import.meta.url).href
-  const sqlExample = new URL('/static/images/sqlexample.PNG', import.meta.url).href
+  const sqlExample = new URL('/static/images/sqlexample.png', import.meta.url).href
 
 
 
