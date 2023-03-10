@@ -2,7 +2,7 @@
   const collage = new URL('/static/images/collage.png', import.meta.url).href
   const originStateData = new URL('/static/images/originstatedata.PNG', import.meta.url).href
   const codesample = new URL('/static/images/codesample.png', import.meta.url).href
-  const andMore = new URL('/static/images/andmore.PNG', import.meta.url).href
+  const sqlExample = new URL('/static/images/sqlexample.PNG', import.meta.url).href
 
 
 
@@ -72,13 +72,13 @@
 
 <div class="card lg:card-side bg-base-100 shadow-xl card-body image-full">
   <figure>
-    <img src="{andMore}" alt="A graph showing logistics data"/>
+    <img src="{sqlExample}" alt="An SQL Query example"/>
   </figure>
 <div class="card-body">
-  <h2 class="card-title">More coming soon!</h2>
-  <p>Check back for more data analysis projects.</p>
+  <h2 class="card-title">SQL Query Example</h2>
+  <p>Without revealing customer data, this example shows the kind of SQL Queries I  use on a daily basis. More advanced queries can be completed with a little elbow grease.</p>
   <div class="card-actions justify-end">
-  <button class="btn btn-primary" onclick="location.href='/';">Home</button>
+  <button class="btn btn-primary" onclick="location.href='https://derekdevs.com/images/sqlexample.png';">View Example</button>
   </div>
 </div>
 </div>
