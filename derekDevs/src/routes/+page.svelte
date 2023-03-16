@@ -33,7 +33,7 @@
       <h2 class="card-title justify-center">Web Development Portfolio</h2>
       <p>Take a look at examples of full-stack devlelopment projects I have created.</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-primary" onclick="location.href='/webDevelopment';">View</button>
+        <button class="btn btn-primary" onclick="location.href='/webdevelopment';">View</button>
       </div>
     </div>
   </div>
@@ -43,7 +43,7 @@
       <h2 class="card-title justify-center">Data Analysis Portfolio</h2>
       <p>Projects and tools developed to analyze, visualize, or manipulate data.</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-primary" onclick="location.href='/dataAnalytics';">View</button>
+        <button class="btn btn-primary" onclick="location.href='/dataanalytics';">View</button>
       </div>
     </div>
   </div>
@@ -65,7 +65,7 @@
 <div class="p-2 rounded">
   <div class="container mx-auto bg-repeat heropattern-topography-inherit p-5 rounded-md max-w-full">
     <div class="mockup-code w-1/2 mx-auto max-w-s">
-      <pre data-prefix="$"><code>pnpm i <a class="link link-secondary" href="/contactForm">contactDeveloper</a></code></pre> 
+      <pre data-prefix="$"><code>pnpm i <a class="link link-secondary" href="/contactform">contactDeveloper</a></code></pre> 
       <!-- <pre data-prefix=">" class="text-warning"><code>installing...</code></pre> 
       <pre data-prefix=">" class="text-success"><code>Done!</code></pre> -->
     </div>

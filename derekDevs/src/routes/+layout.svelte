@@ -22,10 +22,10 @@
           <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
           <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
             <li>
-              <a href="/webDevelopment">Web Development Portfolio</a>
+              <a href="/webdevelopment">Web Development Portfolio</a>
             </li>
             <li>
-              <a href="/dataAnalytics">Data Analysis Portfolio</a>
+              <a href="/dataanalytics">Data Analysis Portfolio</a>
             </li>
             <li>
               <a href="/extras">Extras</a>
@@ -33,7 +33,7 @@
           </ul>
         </div>
       <a class="btn btn-primary normal-case text-xl" href="/">Home</a>
-      <a class="btn btn-primary normal-case text-xl" href="/contactForm">Contact</a>
+      <a class="btn btn-primary normal-case text-xl" href="/contactform">Contact</a>
     </div>
     <div class="flex-none">
       <div class="invisible lg:visible xl:visible md:visible tooltip tooltip-open tooltip-left" data-tip="Click me to change the website theme!">
